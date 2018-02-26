@@ -12,14 +12,11 @@ body{
     vertical-align:middle;
     height: auto;
     width: auto;
-    /*border: red solid 1px;*/
-    
 }
 
 .topDiv{
     border-bottom: rgb(216, 216, 216) solid 1px;
     height: auto;
-    /*border: blue solid 1px;*/
 }
 .topDiv p{
     margin-left: 20px;
@@ -31,7 +28,6 @@ body{
     border-bottom: rgb(216, 216, 216) solid 1px;
     height: auto;
     width: 60em;
-    /*border: blue solid 1px;*/
     font-family: 'Merriweather', serif;
 }
 .topDivConf p{
@@ -101,13 +97,11 @@ textarea{
     justify-content: center;
     width: auto;
     height: auto;
-    /*border: blue solid 1px;*/
 }
 
 .bottomDivConf{
     max-width: 30em;
     height: auto;
-    /*border: blue solid 1px;*/
     padding: 2px;
     margin-left: 20px;
     margin-bottom: 50px;
@@ -123,7 +117,6 @@ textarea{
     padding: 10px 20px;
     width: auto;
     max-width: 30em;
-    /*border: green solid 1px;*/
 }
 
 .leftinside p {
@@ -136,7 +129,6 @@ textarea{
     height: auto;
     padding: 10px 20px 10px 0px;
     width: auto;
-    /*border: green solid 1px;*/
 }
 
 body {
