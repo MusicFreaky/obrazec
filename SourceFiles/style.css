@@ -1,0 +1,148 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: whitesmoke;
+    vertical-align:middle;
+    height: auto;
+    width: auto;
+    /*border: red solid 1px;*/
+    
+}
+
+.topDiv{
+    border-bottom: rgb(216, 216, 216) solid 1px;
+    height: auto;
+    /*border: blue solid 1px;*/
+}
+.topDiv p{
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.topDivConf{
+    border-bottom: rgb(216, 216, 216) solid 1px;
+    height: auto;
+    width: 60em;
+    /*border: blue solid 1px;*/
+    font-family: 'Merriweather', serif;
+}
+.topDivConf p{
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.image {
+    height: 20px;
+    width: auto;
+    margin-top: 15px;
+    margin-right: 15px;
+    float: right;
+}
+
+.imagemain {
+    height: 20px;
+    width: auto;
+    margin-top: 15px;
+    margin-right: 15px;
+    float: right;
+}
+
+
+.inputText{
+    margin-bottom: 25px;
+    border-radius: 8px;
+    background:rgb(230, 230, 230);
+    border: none;
+    padding: 15px 0 15px 20px;
+    border: 1px solid transparent;
+    font-family: 'Merriweather', serif;
+    width: 355px;
+
+}
+
+.inputTextArea {
+    width: 510px;
+
+
+}
+.inputText:focus{
+    background:white;
+    border: black solid 1px;
+    outline: none;
+}
+
+.button{
+    background: #5c81bc;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-family: 'Merriweather', serif;
+}
+
+textarea{
+    resize: none;
+    width: 40em;
+    height: 30em;
+    font-family: 'Merriweather', serif;
+}
+
+.bottomDiv{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    /*border: blue solid 1px;*/
+}
+
+.bottomDivConf{
+    max-width: 30em;
+    height: auto;
+    /*border: blue solid 1px;*/
+    padding: 2px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-family: 'Merriweather', serif;
+}
+
+.bottomDivConf p {
+    color: #5E5E5E;
+}
+
+.leftInside{
+    display: inline-block;
+    padding: 10px 20px;
+    width: auto;
+    max-width: 30em;
+    /*border: green solid 1px;*/
+}
+
+.leftinside p {
+    color: #5E5E5E;
+    font-size: 16px;
+}
+
+.rightInside{
+    display: inline-block;
+    height: auto;
+    padding: 10px 20px 10px 0px;
+    width: auto;
+    /*border: green solid 1px;*/
+}
+
+body {
+    background: url("/Images/MB8  copy 3/landscape-mountains-nature-lake.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
